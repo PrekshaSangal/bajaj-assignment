@@ -1,11 +1,17 @@
-> Why do I have a folder named ".vercel" in my project?
-The ".vercel" folder is created when you link a directory to a Vercel project.
+BFHL API
+A simple Node.js + Express API deployed on Vercel.
+The API takes input data, filters it into categories (numbers, alphabets, special characters), and returns structured output.
 
-> What does the "project.json" file contain?
-The "project.json" file contains:
-- The ID of the Vercel project that you linked ("projectId")
-- The ID of the user or team your Vercel project is owned by ("orgId")
+🚀 Features
+Accepts JSON input with a list of data items.
 
-> Should I commit the ".vercel" folder?
-No, you should not share the ".vercel" folder with anyone.
-Upon creation, it will be automatically added to your ".gitignore" file.
+Separates:
+Odd numbers
+Even numbers
+Alphabets (converted to uppercase)
+Special characters
+
+Returns:
+User details (name, email, roll number)
+Concatenated string of alphabets
+Sum of numbers
